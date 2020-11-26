@@ -30,7 +30,7 @@ $cyan="\033[0;36m";
     $lock = file_get_contents('https://hangbz.000webhostapp.com/lock.php');
     $keylock = md5(htmlspecialchars($lock));
     echo $res;
-    if (md5('han') != $keylock) {
+    if (md5('HanGudboiz') != $keylock) {
         exit($red . "Server Đã Ngừng Hoạt Động !!!
 $res");
     } else {
@@ -48,8 +48,11 @@ $res");
 ";
             break;
         } else {
-            echo "[1;31mMã key Không Đúng Kìa";
-            echo "Vui Lòng Donate Cho Mình Để Có Key\n
+            echo "[1;31mMã key Không Đúng Kìa... \n";
+            sleep(1);
+            echo "Vui Lòng Donate Cho Mình Để Có Key\n"
+            sleep(1);
+            echo"Donate qua Momo:0392279447 or Donate qua Xu_Tds:HanGudboiz \n
 ";
         }
     }
