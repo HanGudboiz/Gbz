@@ -30,7 +30,7 @@ $cyan="\033[0;36m";
     $lock = file_get_contents('https://hangbz.000webhostapp.com/lock.php');
     $keylock = md5(htmlspecialchars($lock));
     echo $res;
-    if (md5(' HanGudboiz ') != $keylock) {
+    if (md5('han') != $keylock) {
         exit($red . "Server Đã Ngừng Hoạt Động !!!
 $res");
     } else {
