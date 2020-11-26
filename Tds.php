@@ -52,7 +52,8 @@ $res");
             sleep(1);
             echo "Vui Lòng Donate Cho Mình Để Có Key\n"
             sleep(1);
-            echo "Donate qua Momo:0392279447 or Donate qua Xu_Tds:HanGudboiz \n
+            echo "Donate qua Momo:0392279447 or Donate qua Xu_Tds:HanGudboiz \n";
+            echo"
 ";
         }
     }
